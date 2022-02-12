@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Signup</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Signin.css"/> 
+    </head>
+    <body>
+        <center><h2>SignUp</h2></center>
+        <hr/>
+        <div class="flex-container">
+            <div class="container__left">
+              <img src="register.svg"/>
+             </div>
+            <div class="container__right border">
+                <div class="container__form">
+                    <form class="signup_form" autocomplete="off"  method="post">
+                        <p class="label">User Name</p><br/>
+                        <input type="text" class="form_input" id="name" /><br/>
+                        <p id="nameerr" class="err"></p>
+                        <p class="label">Mobile Number</p><br/>
+                        <input type="tel" class="form_input" id="mobile"/><br/>
+                        <p id="moberr" class="err"></p>
+                        <p class="label">Email Address</p><br/>
+                        <input type="text" class="form_input" id="email"/><br/>
+                        <p id="emailerr" class="err"></p>
+                        <p class="label">Password</p><br/>
+                        <input type="password" class="form_input" id="password"/><br/>
+                        <p id="passerr" class="err"></p><br/><br/>
+                        <center>
+                            <input type="button" class="button" value="SignUp" onclick="return validate()" name="submit"/>
+                        </center>
+                    </form>
+                    <script src="./Signin.js"></script>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
