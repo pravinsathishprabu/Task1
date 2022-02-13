@@ -38,8 +38,6 @@ h2{
 .container__left{
     min-width:30%;
     max-width: 100%;
-    border:2px solid white;
-    background-color: white;
 }
 .container__right{
     min-width:60%;
